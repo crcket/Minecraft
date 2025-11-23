@@ -405,12 +405,12 @@ set.spread-fire=100
 # Optional, defaulting to 0, except phantoms, skeletons, and zombies,
 # which will default to 100.
 # Type: Numeric, between 1 and 100
-set.sunburn=0
+set.sunburn=100
 
 # set.xp is the experience points dropped by the mob after killing.
 # Optional, defaulting to vanilla
 # Type: Numeric or Range, between 0 and MAX
-set.xp=[10,50]
+set.xp=[30,120]
 
 ################################################################################
 # SLOT - Parameters to define armor and items in hand.
@@ -523,6 +523,7 @@ type=["all"]
 set.climb=true
 set.break-block=true
 set.place-block=true
+set.sunburn=true
 
 
 ################################################################################
