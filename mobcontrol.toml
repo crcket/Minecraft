@@ -181,7 +181,7 @@ weather="clear"
 #   Range: [5,10]
 #   Less than: "<5"
 #   Greater than: ">5"
-light="<5"
+light="0"
 
 # max-per-mob is the maximum number of mobs allowed on the server at once.
 # Optional
