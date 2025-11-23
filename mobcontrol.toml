@@ -211,7 +211,7 @@ spawn.additional-checks=0
 #   Range: [5,10]
 #   Less than: "<5"
 #   Greater than: ">5"
-spawn.count=5
+spawn.count=[1,5]
 
 # spawn.distance-x is the x-axis distance to spawn the mob from the source.
 # The source can either be a player or a spawner.
@@ -294,7 +294,7 @@ set.baby=50
 # set.break-block is the probability the mob will break blocks.
 # Optional, defaulting to 0
 # Type: Numeric, between 1 and 100
-set.break-block=25
+set.break-block=5
 
 # set.can-lead is the probability the mob can be leashed with a lead
 # Optional, defaulting to 0
